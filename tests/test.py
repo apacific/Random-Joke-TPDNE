@@ -2,8 +2,11 @@ import unittest
 from main import home
 
 class test(unittest.TestCase):
+    data = requests.get("https://v2.jokeapi.dev/joke"
+                        "/Programming").json().items()
+    
     def test_home_page(self):
-        self.assertEqual(function1(1), 0)
+        assertEqual(1+1, 2)
 
 
 if __name__ == '__main__':
