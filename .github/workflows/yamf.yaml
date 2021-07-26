@@ -14,6 +14,7 @@ jobs:
 
       - name: Install tools
         run: python3 -m pip install --upgrade pip pycodestyle
+             python3 -m pip install flask
 
       - name: Check Style
         run: pycodestyle --first *.py
