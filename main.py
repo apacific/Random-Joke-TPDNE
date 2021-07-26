@@ -9,7 +9,8 @@ app = Flask(__name__)
 def home():
 
     data = requests.get("https://v2.jokeapi.dev/joke/Any?"
-                        "blacklistFlags=nsfw,religious,political,racist,sexist,explicit").json().items()
+                        "blacklistFlags=nsfw,religious,political,"
+                        "racist,sexist,explicit").json().items()
     for key, value in data:
 
         if key == 'joke':
