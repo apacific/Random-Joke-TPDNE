@@ -12,8 +12,8 @@ class test(unittest.TestCase):
         self.assertEqual(1+1, 2)
         print(dir(requests))  # This shows us available methods to use with an object.
         print(requests.get.assert_called())
-        print(requests.get.assert_not_called())
-        print(requests.get.assert_called_with('https://pokeapi.co/api/v2/pokemon/pikachu'))
+#        print(requests.get.assert_not_called())
+        print(requests.get.assert_called_with('https://v2.jokeapi.dev/joke/Programming'))
         print(requests.method_calls)
 
 
