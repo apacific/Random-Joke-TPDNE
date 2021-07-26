@@ -8,8 +8,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
 
-    data = requests.get("https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,relig"
-                        "ious,political,racist,sexist,explicit").json().items()
+    data = requests.get("https://v2.jokeapi.dev/joke/Programming").json().items()
     for key, value in data:
 
         if key == 'joke':
