@@ -13,7 +13,7 @@ jobs:
           python-version: 3.6
 
       - name: Install tools
-        run: python3 -m pip install --upgrade pip pycodestyle && python3 -m pip install flask && python3 -m pip install requests
+        run: python3 -m pip install --upgrade pip pycodestyle && python3 -m pip install flask && python3 -m pip install requests && python3 -m pip install coverage
 
       - name: Check Style
         run: pycodestyle --first *.py
