@@ -19,11 +19,11 @@ jobs:
         run: pycodestyle --first *.py
                         
       - name: Test with unittest
-        run: python3 -m unittest test.py
+        run: python3 -m unittest tests/test.py
           
       - name: Check code coverage                        
         run:
-          python3 -m coverage run -m unittest test.py
+          python3 -m coverage run -m unittest tests/test.py
           python3 -m coverage report
           python3 -m coverage html
           
