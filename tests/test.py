@@ -7,7 +7,7 @@ class test(unittest.TestCase):
                         "/Programming").json().items()
     
     def test_home_page(self):
-        assertEqual(1+1, 2)
+        self.assertEqual(1+1, 2)
 
 
 if __name__ == '__main__':
