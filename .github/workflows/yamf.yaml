@@ -24,8 +24,8 @@ jobs:
       - name: Check code coverage                        
         run:
           python3 -m coverage run -m unittest tests/test.py
-          python3 -m coverage report
-          python3 -m coverage html
+#          python3 -m coverage report
+#          python3 -m coverage html
           
       - name: Archive code coverage HTML report
         uses: actions/upload-artifact@v2
