@@ -1,5 +1,4 @@
-from flask import Flask, Markup, redirect, render_template, url_for
-import requests
+from flask import Flask, Markup, redirect, render_template, url_for, requests
 import json
 
 app = Flask(__name__)
