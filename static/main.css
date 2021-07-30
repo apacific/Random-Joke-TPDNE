@@ -9,7 +9,9 @@ html, body, img {
 
 h1 {
     margin-bottom: -20px;
-    font-style: bold;
+    font-size: 4.5vw;
+    font-style: oblique;
+    font-weight: bold;
 }
 
 .centered {
@@ -20,9 +22,6 @@ h1 {
   transform: translate(-50%, -50%);
   text-shadow: .1px .1px 5px black;
   margin-top: 50px;
-  font-size: 4.5vw;
-  font-style: oblique;
-  font-weight: bold;
 }
 
 .container {
