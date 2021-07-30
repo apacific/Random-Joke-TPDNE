@@ -18,7 +18,7 @@ html, body, img {
   font-size: 5.5vw;
   font-style: oblique;
   font-weight: bold;
-  line-height: 52px;
+  margin-bottom: -22px;
 }
 
 .container {
