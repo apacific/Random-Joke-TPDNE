@@ -8,7 +8,7 @@ html, body, img {
 }
 
 h1 {
-    margin-bottom: -20px;
+    line-height: 1;
     font-size: 4.5vw;
     font-style: oblique;
     font-weight: bold;
